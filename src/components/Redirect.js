@@ -1,12 +1,18 @@
+import { useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 
 export function Redirect({ to }) {
 
     const navigate = useNavigate();
 
-    if (to) {
-        navigate(to);
-    }
+    useEffect(() => {
+        if (to) {
+            navigate(to);
+        }
+    }, [to])
+
+
+
 
     return <div />
 }
