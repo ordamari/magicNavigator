@@ -11,6 +11,7 @@ function App() {
         <Navbar />
         <Routes>
           <Route exact path="/" element={<Redirect to='/home' />} />
+          <Route exact path="/magic-navigator" element={<Redirect to='/home' />} />
           <Route exact path="/home" element={<div />} />
           <Route exact path="/accounts" element={<div />} />
           <Route exact path="/messages" element={<div />} />
