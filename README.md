@@ -4,4 +4,4 @@ In the first time i saw this navigator in the youtube ( [Online Tutorials](https
 
 I decide to build it in react and to do the adjustments for that, after i finish that i understund that the code is not easy to change, and if i will want to use it in the future i can't do that without repeat the code to understand what to do, after that i decide to do litle changes to allow future use in this amazing navigation
 
-[DEMO](https://ordamari.github.io/magic-navigator/)
+[DEMO](https://ordamari.github.io/magicNavigator/)
