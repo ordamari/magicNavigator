@@ -10,13 +10,12 @@ function App() {
       <Router>
         <Navbar />
         <Routes>
-          <Route exact path="/" element={<Redirect to='/home' />} />
-          <Route exact path="/magic-navigator" element={<Redirect to='/home' />} />
           <Route exact path="/home" element={<div />} />
           <Route exact path="/accounts" element={<div />} />
           <Route exact path="/messages" element={<div />} />
           <Route exact path="/photos" element={<div />} />
           <Route exact path="/settings" element={<div />} />
+          <Route path="/" element={<Redirect to='/home' />} />
         </Routes>
       </Router>
     </div>
